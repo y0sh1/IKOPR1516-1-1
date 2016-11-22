@@ -1,5 +1,7 @@
 //import .......
 
+import javax.swing.*;
+
 public class HoofdPaneel extends JPanel
 {
   private VerkeersLichtModel model;

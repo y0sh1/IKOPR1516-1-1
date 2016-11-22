@@ -2,6 +2,10 @@
 //import ....
 
 
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 public class VerkeersController extends JPanel implements ActionListener
 {
   private VerkeersLichtModel model;
@@ -25,8 +29,9 @@ public class VerkeersController extends JPanel implements ActionListener
 
   public void actionPerformed( ActionEvent e )
   {
-     if ( e.getSource() == roodKnop )
+     if ( e.getSource() == roodKnop ){
        // zet het rode licht aan
+     }
 
      // idem met de andere knoppen
 
